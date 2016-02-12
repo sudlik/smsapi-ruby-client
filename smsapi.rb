@@ -23,7 +23,7 @@ module Smsapi
         'test' => @test ? 1 : 0,
       )
 
-      return response.body
+      response.body
     end
   end
 end
